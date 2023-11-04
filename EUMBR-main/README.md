@@ -24,7 +24,7 @@ This folder
 ```shell
 python ./train.py ./configs/thumos_i3d.yaml --output reproduce
 ```
-* Evaluate the trained model. The expected average mAP should be around 62.6(%) as in Table 1 of our main paper.
+* Evaluate the trained model. 
 ```shell
 python ./eval.py ./configs/thumos_i3d.yaml ./ckpt/thumos_i3d_reproduce
 ```
